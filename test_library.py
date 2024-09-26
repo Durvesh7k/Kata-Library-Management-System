@@ -17,5 +17,15 @@ class TestLibraryManagementSystem(unittest.TestCase):
         self.assertTrue(book.is_borrowed)
         self.assertNotIn(book, library.available_books)
 
+    def test_return_book(self):
+        library = Library()
+        book = Book("123456", "The Great Gatsby", "F. Scott Fitzgerald", 1925)
+        library.add_book(book)
+        library.borrow_book("123456")
+        library.return_book("123456")
+        self.assertFalse(book.is_borrowed)
+        self.assertIn(book, library.available_books)
+
+
 if __name__ == "__main__":
     unittest.main()

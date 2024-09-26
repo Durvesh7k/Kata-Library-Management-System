@@ -69,3 +69,7 @@ To run the test suite, make sure you have the necessary classes defined in your 
 
 ```bash
 python -m unittest -v test_library.py > test_report.txt
+```
+### output
+![image](https://github.com/user-attachments/assets/1f863f55-afd6-444a-a7a5-79a26a58597d)
+

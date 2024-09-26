@@ -1,4 +1,4 @@
-# Library Management System
+# Kata - Library Management System
 
 ## Overview
 

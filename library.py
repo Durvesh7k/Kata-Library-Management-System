@@ -28,3 +28,6 @@ class Library:
                 self.available_books.append(book)
                 return
         raise ValueError("Book was not borrowed")
+    
+    def view_available_books(self):
+        return self.available_books

@@ -1,4 +1,24 @@
-# Library Management System
+# Kata - Library Management System
+
+### Project Setup
+
+1. **Create Project Directory**:
+   Create a new directory for your project, for example, `library_management_system`.
+
+   ```bash
+   mkdir library_management_system
+   cd library_management_system
+   ```
+
+2. **Create Python Files**:
+   Inside your project directory, create two files:
+   - `library.py`: This file will contain the implementation of the `Book` and `Library` classes.
+   - `test_library.py`: This file will contain the unit tests for the library system.
+
+   ```bash
+   touch library.py test_library.py
+   ```
+
 
 
 ### Project Setup
@@ -89,3 +109,7 @@ To run the test suite, make sure you have the necessary classes defined in your 
 
 ```bash
 python -m unittest -v test_library.py > test_report.txt
+```
+### output
+![image](https://github.com/user-attachments/assets/1f863f55-afd6-444a-a7a5-79a26a58597d)
+

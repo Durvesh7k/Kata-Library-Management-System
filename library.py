@@ -20,3 +20,11 @@ class Library:
                 self.available_books.remove(book)
                 return
         raise ValueError("Book not available")
+    
+    def return_book(self, isbn):
+        for book in self.available_books:
+            if book.isbn == isbn and book.is_borrowed:
+                book.is_borrowed = False
+                self.available_books.append(book)
+                return
+        raise ValueError("Book was not borrowed")

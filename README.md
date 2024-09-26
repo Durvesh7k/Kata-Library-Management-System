@@ -16,28 +16,9 @@
    - `test_library.py`: This file will contain the unit tests for the library system.
 
    ```bash
+
    touch library.py test_library.py
-   ```
-
-
-
-### Project Setup
-
-1. **Create Project Directory**:
-   Create a new directory for your project, for example, `library_management_system`.
-
-   ```bash
-   mkdir library_management_system
-   cd library_management_system
-   ```
-
-2. **Create Python Files**:
-   Inside your project directory, create two files:
-   - `library.py`: This file will contain the implementation of the `Book` and `Library` classes.
-   - `test_library.py`: This file will contain the unit tests for the library system.
-
-   ```bash
-   touch library.py test_library.py
+   
    ```
 
 ## Overview
